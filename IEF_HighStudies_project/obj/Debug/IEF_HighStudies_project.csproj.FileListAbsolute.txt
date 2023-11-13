@@ -1,0 +1,15 @@
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\bin\Debug\IEF_HighStudies_project.exe.config
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\bin\Debug\IEF_HighStudies_project.exe
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\bin\Debug\IEF_HighStudies_project.pdb
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\bin\Debug\MyDataset.dll
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\bin\Debug\MyDataset.pdb
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.csprojResolveAssemblyReference.cache
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.MainForm.resources
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.cme_studentsUC.resources
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.LogInForm.resources
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.Properties.Resources.resources
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.csproj.GenerateResource.Cache
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.exe
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.pdb
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.UserControls.YearsUserControl.resources
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\IEF_HighStudies_project\obj\Debug\IEF_HighStudies_project.UserControls.StudentsUserControl.resources

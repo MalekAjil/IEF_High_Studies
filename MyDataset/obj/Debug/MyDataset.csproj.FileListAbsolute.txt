@@ -1,0 +1,5 @@
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\MyDataset\bin\Debug\MyDataset.dll.config
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\MyDataset\bin\Debug\MyDataset.dll
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\MyDataset\bin\Debug\MyDataset.pdb
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\MyDataset\obj\Debug\MyDataset.dll
+D:\Learning\visual studio Projects\visual studio 2013 Projects\IEF_HighStudies_project\MyDataset\obj\Debug\MyDataset.pdb

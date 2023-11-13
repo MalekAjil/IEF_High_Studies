@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74CEA9AB-FD67-48A4-83AF-69D442CE2529}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IEF_HighStudies_project</RootNamespace>
+    <AssemblyName>IEF_HighStudies_project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\cme_studentsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\cme_studentsUC.Designer.cs">
+      <DependentUpon>cme_studentsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\StudentsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\StudentsUserControl.Designer.cs">
+      <DependentUpon>StudentsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\YearsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\YearsUserControl.Designer.cs">
+      <DependentUpon>YearsUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\cme_studentsUC.resx">
+      <DependentUpon>cme_studentsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\StudentsUserControl.resx">
+      <DependentUpon>StudentsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\YearsUserControl.resx">
+      <DependentUpon>YearsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\MyDataset.IEFHSDBdataset.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.0 %28238%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.0 %28731%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.0 %28735%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\210.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01000System.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6546 %2881%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\callregister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28247%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28256%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28265%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28270%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28273%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28290%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28291%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28292%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28293%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28294%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28298%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28306%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28308%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28309%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28310%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28312%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28313%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28314%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28315%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28316%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28317%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28319%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28324%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28325%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28330%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28336%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28344%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28355%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28357%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28358%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28372%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28401%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28407%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28408%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28420%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28424%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoBra %28425%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_452[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_453[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_454[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_455[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_456[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_457[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_458[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_459[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_460[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_461[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_462[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_463[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_464[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_465[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_466[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_467[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_468[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_469[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_470[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_471[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_472[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_two_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyDataset\MyDataset.csproj">
+      <Project>{c44b52f2-9795-44aa-a56a-69fbfd6929ea}</Project>
+      <Name>MyDataset</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
